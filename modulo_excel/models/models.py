@@ -2,7 +2,7 @@
 
 from odoo import models, fields, api
 
- class modulo_excel(models.Model):
+class modulo_excel(models.Model):
      _name = 'modulo_excel.modulo_excel'
 
      name = fields.Char()
