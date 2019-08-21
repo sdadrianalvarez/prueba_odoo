@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from odoo import http
 
- class ModuloExcel(http.Controller):
+class ModuloExcel(http.Controller):
      @http.route('/modulo_excel/modulo_excel/', auth='public')
      def index(self, **kw):
          return "Hello, world"
