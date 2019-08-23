@@ -1,30 +1,53 @@
 <odoo>
     <data>
           
-           <record id="object0" model="modulo_excel.modulo_excel"> 
-             <field name="name">Object 0</field> 
-             <field name="value">0</field> 
+           <record id="1" model="modulo_excel.lista_archivos"> 
+             <field name="name">archivo 1</field> 
+             <field name="archivo">archivo1.xlsx</field> 
+             <field name="columnas">5</field> 
+             <field name="registros">98</field> 
+             <field name="fecha_subida">2019-08-15 12:00:00</field> 
            </record> 
           
-           <record id="object1" model="modulo_excel.modulo_excel"> 
-             <field name="name">Object 1</field> 
-             <field name="value">10</field> 
+           <record id="2" model="modulo_excel.lista_archivos"> 
+             <field name="name">archivo 2</field> 
+             <field name="archivo">archivo2.xlsx</field> 
+             <field name="columnas">6</field> 
+             <field name="registros">78</field> 
+             <field name="fecha_subida">2019-08-16 12:00:00</field> 
            </record> 
           
-           <record id="object2" model="modulo_excel.modulo_excel"> 
-             <field name="name">Object 2</field> 
-             <field name="value">20</field> 
+           <record id="3" model="modulo_excel.lista_archivos"> 
+             <field name="name">archivo 3</field> 
+             <field name="archivo">archivo3.xlsx</field> 
+             <field name="columnas">5</field> 
+             <field name="registros">100</field> 
+             <field name="fecha_subida">2019-08-17 12:00:00</field> 
            </record> 
           
-           <record id="object3" model="modulo_excel.modulo_excel"> 
-             <field name="name">Object 3</field> 
-             <field name="value">30</field> 
+           <record id="4" model="modulo_excel.lista_archivos"> 
+             <field name="name">archivo 4</field> 
+             <field name="archivo">archivo4.xlsx</field> 
+             <field name="columnas">10</field> 
+             <field name="registros">67</field> 
+             <field name="fecha_subida">2019-08-18 12:00:00</field> 
            </record> 
           
-           <record id="object4" model="modulo_excel.modulo_excel"> 
-             <field name="name">Object 4</field> 
-             <field name="value">40</field> 
+           <record id="5" model="modulo_excel.lista_archivos"> 
+             <field name="name">archivo 5</field> 
+             <field name="archivo">archivo5.xlsx</field> 
+             <field name="columnas">8</field> 
+             <field name="registros">67</field> 
+             <field name="fecha_subida">2019-08-19 12:00:00</field> 
            </record> 
           
+           <record id="6" model="modulo_excel.lista_archivos"> 
+             <field name="name">archivo 6</field> 
+             <field name="archivo">archivo6.xlsx</field> 
+             <field name="columnas">11</field> 
+             <field name="registros">100</field> 
+             <field name="fecha_subida">2019-08-20 12:00:00</field> 
+           </record> 
+                    
     </data>
 </odoo>

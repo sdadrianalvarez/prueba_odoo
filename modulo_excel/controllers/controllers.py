@@ -10,11 +10,11 @@ class ModuloExcel(http.Controller):
      def list(self, **kw):
          return http.request.render('modulo_excel.listing', {
              'root': '/modulo_excel/modulo_excel',
-             'objects': http.request.env['modulo_excel.modulo_excel'].search([]),
+             'objects': http.request.env['modulo_excel.lista_archivos'].search([]),
          })
 
-     @http.route('/modulo_excel/modulo_excel/objects/<model("modulo_excel.modulo_excel"):obj>/', auth='public')
+     @http.route('/modulo_excel/modulo_excel/objects/<model("modulo_excel.lista_archivos"):obj>/', auth='public')
      def object(self, obj, **kw):
-         return http.request.render('modulo_excel.object', {
+         return http.request.render('lista_archivos.object', {
              'object': obj
          })

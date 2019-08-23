@@ -3,13 +3,15 @@
 from odoo import models, fields, api
 
 class modulo_excel(models.Model):
-     _name = 'modulo_excel.modulo_excel'
+     _name = 'modulo_excel.lista_archivos'
 
      name = fields.Char()
-     value = fields.Integer()
-     value2 = fields.Float(compute="_value_pc", store=True)
-     description = fields.Text()
+     archivo = fields.Char()
+     columnas = fields.Integer()
+     registros = fields.Integer()
+     total = fields.Integer(compute="_compute_total", store=True)
+     fecha_subida = fields.DateTime()
 
-     @api.depends('value')
-     def _value_pc(self):
-         self.value2 = float(self.value) / 100
+     @api.depends('columnas', 'registros')
+     def _compute_total(self):
+         self.total = self.columnas * self.registros
