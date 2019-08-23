@@ -10,7 +10,7 @@ class modulo_excel(models.Model):
      columnas = fields.Integer()
      registros = fields.Integer()
      total = fields.Integer(compute="_compute_total", store=True)
-     fecha_subida = fields.DateTime()
+     fecha_subida = fields.Datetime()
 
      @api.depends('columnas', 'registros')
      def _compute_total(self):
