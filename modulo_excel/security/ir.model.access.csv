@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_modulo_excel_modulo_excel,modulo_excel.modulo_excel,model_modulo_excel_modulo_excel,,1,0,0,0
+access_modulo_lista_archivos,modulo_excel.lista_archivos,model_modulo_excel_lista_archivos,,1,0,0,0
